@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travel Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('https://www.kayak.com.mx/rimg/dimg/dynamic/29/2020/11/1a0e4df85d844c839e3c65b369413639.webp');">
+    <header>
+        <nav>
+            <a href="travelRecommendation.html">Home</a>
+            <a href="aboutUs.html">About</a>
+            <a href="contact.html">Contact</a>
+            <input type="text" placeholder="Search destinations..." id="destinationInput">
+            <select id="dropdown" disabled = "true"></select>
+            <button id="searchButton">Search</button>
+            <button id="clearButton">Clear</button>
+        </nav>
+        <h1>Explore the World</h1>
+    </header>
+    <main>
+        <section id="recommendations">
+            <h2>Recommended Destinations</h2>
+            <div id="destination-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Travel Agency</p>
+    </footer>
+    <script src="travelRecommendation.js"></script>
+</body>
+</html>
